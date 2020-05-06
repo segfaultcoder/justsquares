@@ -1,0 +1,18 @@
+2020/05/05 19:58:39 Micro started
+2020/05/05 19:58:39 monokai-dark is not a plugin
+2020/05/05 19:58:39 editorconfig log: Running on file /home/segfaultcoder/Documentos/justsquares/libs/olcPixelGameEngine.h
+2020/05/05 19:58:39 editorconfig log: editorconfig core output: 
+
+2020/05/05 19:58:39 editorconfig log: Done.
+2020/05/05 19:58:46 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc0008df9e0
+2020/05/05 19:58:52 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000cf49c0
+2020/05/05 19:58:56 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000cf7d40
+2020/05/05 19:59:03 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000cf7ec0
+2020/05/05 19:59:04 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000d02540
+2020/05/05 19:59:04 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000d02ba0
+2020/05/05 19:59:05 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000d03200
+2020/05/05 19:59:05 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000cf4b70
+2020/05/05 19:59:16 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000d435f0
+2020/05/05 19:59:17 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000fa24e0
+2020/05/05 19:59:19 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000fa2660
+2020/05/05 19:59:19 snippets-plugin -> function onBeforeTextEvent(ev) = userdata: 0xc000fa26c0
