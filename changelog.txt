@@ -1,0 +1,27 @@
+20.04.0:
+ - Initial prealpha.
+
+20.04.1: 
+ - Added very basic multiplayer with the ability to move, break and place blocks from any client.
+
+20.05.0:
+ - Made multiplayer 15 times faster, removing server-side lag.
+ - Limited TPS to 10.
+ - Added a terminal-based world and seed selection.
+ - Added an inventory bar.
+ - Now players can see other players(both in the game and in a list).
+ - Removed completely the usage of "Player IDs(int)" in favor of the "Player names(string)".
+ - Fixed some memory leaks and bugs.
+ - Added some player debug info.
+ - Removing differences between offline and client mode.
+ - Added iron, copper and tin.
+ - Added collision and gravity.
+ - Added an inventory.
+
+20.05.1:
+ - Added red, blue and mixed wires.
+ - Added red, blue and mixed blocks.
+ - Added grass.
+ - Removing some debug code left in world generation.
+ - Added an inventory animation.
+ - Added a main menu.

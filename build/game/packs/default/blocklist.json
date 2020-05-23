@@ -1,0 +1,487 @@
+{
+  "blocks": [
+    {
+      "name": "stone",
+      "texture": [0, 0],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "dirt",
+      "texture": [1, 0],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "sand",
+      "texture": [2, 0],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "mud",
+      "texture": [3, 0],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "log",
+      "texture": [0, 1],
+      "has-collision": false,
+      "is-full-block": true,
+      "interact-default-data": [false, true, false, false],
+      "interact-data": [
+        {
+          "name": "leaves",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "texture": [1, 1],
+      "has-collision": false,
+      "is-full-block": true,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "iron",
+      "texture": [2, 1],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "copper",
+      "texture": [3, 1],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "tin",
+      "texture": [4, 1],
+      "has-collision": true,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        },
+        {
+          "name": "grass",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "red-wire",
+      "texture": [0, 2],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "blue-wire",
+      "texture": [1, 2],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "powered-red-wire",
+      "texture": [2, 2],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "powered-blue-wire",
+      "texture": [3, 2],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "mix-wire",
+      "texture": [4, 2],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "powered-mix-wire",
+      "texture": [0, 3],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-mix-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-blue-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "powered-red-wire",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mix-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "blue-block",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "red-block",
+          "sides": [true, true, true, true]
+        }
+      ]
+    },
+    {
+      "name": "red-block",
+      "texture": [1, 3],
+      "has-collision": false,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "blue-block",
+      "texture": [2, 3],
+      "has-collision": false,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "mix-block",
+      "texture": [3, 3],
+      "has-collision": false,
+      "is-full-block": true,
+      "interact-default-data": [true, true, true, true],
+      "interact-data": [
+        {
+          "name": "log",
+          "sides": [true, false, false, false]
+        },
+        {
+          "name": "leaves",
+          "sides": [false, false, false, false]
+        }
+      ]
+    },
+    {
+      "name": "grass",
+      "texture": [4, 3],
+      "has-collision": false,
+      "is-full-block": false,
+      "interact-default-data": [false, false, false, false],
+      "interact-data": [
+        {
+          "name": "grass",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "dirt",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "stone",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "sand",
+          "sides": [true, true, true, true]
+        },
+        {
+          "name": "mud",
+          "sides": [true, true, true, true]
+        }
+      ]
+    }
+  ]
+}
